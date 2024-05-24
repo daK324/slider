@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>slider</title>
+</head>
+<body>
+    <section class="box1">
+        <div class="wraper">
+            <div class="box1-container">
+                <div class="box1-section__first">
+                   <h2 class="box1-section__first_title">Completed <br> projects</h2> 
+                   <p class="box1-section__first_txt">Only a small part of the work performed by our company is presented <br> on the site. For 14 years on in the construction <br>
+                    market we have made happy more than 1000 families</p>
+                        <ul class="characteristic">
+                            <li class="characteristic-item">
+                                <h3 class="characteristic-title">City:</h3>
+                                <p class="characteristic-txt" id="city"></p>
+                            </li>
+                            <li class="characteristic-item">
+                                <h3 class="characteristic-title">apartment area:</h3>
+                                <p class="characteristic-txt" id="square"></p>
+                            </li>
+                            <li class="characteristic-item">
+                                <h3 class="characteristic-title">Repair time:</h3>
+                                <p class="characteristic-txt" id="time"></p>
+                            </li>
+                            <li class="characteristic-item">
+                                <h3 class="characteristic-title">Repair Cost:</h3>
+                                <p class="characteristic-txt" id="cost">Upon request</p>
+                            </li>
+                        </ul>
+                    <div class="arrow">
+                        <img src="./img/svg/arrow-left.svg" alt="arr" class="arrow-item left">
+                        <div class="arrow-dot"></div>
+                        <img src="./img/svg/arrow-right.svg" alt="arr" class="arrow-item right">
+                    </div>
+                </div>
+                <div class="box1-section__second">
+                    <nav class="box1-section__nav">
+                        <ul class="box1-section__nav_list">
+                            <li class="box1-section__nav_item" id="title1" data-index="0">Rostov-on-Don, Admiral</li>
+                            <li class="box1-section__nav_item" id="title2" data-index="1">Sochi Thieves</li>
+                            <li class="box1-section__nav_item" id="title3" data-index="2">Rostov-on-Don</li>
+                        </ul>
+                    </nav>
+                    <div class="slider-img"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/index.js"></script>
+</body>
+</html>
